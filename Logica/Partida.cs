@@ -13,6 +13,7 @@ namespace JuegoDelGato.Logica
         public static Jugador[] Jugadores { get; private set; }
         public static Tablero Tablero { get; private set; }
 
+        private static bool Empate;
         private static int numeroTurno;
         private static bool hayGanador;
         public static bool RondaTerminada { get => hayGanador || numeroTurno >= 8; }

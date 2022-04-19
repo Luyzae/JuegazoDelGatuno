@@ -47,7 +47,6 @@ namespace JuegoDelGato.Forms
             this.BotonNuevoJuego = new System.Windows.Forms.Button();
             this.BotonReiniciarContador = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.Tablero.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -242,21 +241,11 @@ namespace JuegoDelGato.Forms
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(327, 671);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // FormJuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 749);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BotonReiniciarContador);
             this.Controls.Add(this.BotonNuevoJuego);
@@ -294,6 +283,5 @@ namespace JuegoDelGato.Forms
         private Button BotonNuevoJuego;
         private Button BotonReiniciarContador;
         private PictureBox pictureBox1;
-        private Button button1;
     }
 }

@@ -29,7 +29,7 @@ namespace JuegoDelGato.Logica
         {
             Tablero = new Tablero();
             TurnoActual = new Random().NextDouble() > 0.5 ? Pinta.X : Pinta.O;
-            numeroTurno = 0;
+            numeroTurno = 1;
             hayGanador = false;
         }
 

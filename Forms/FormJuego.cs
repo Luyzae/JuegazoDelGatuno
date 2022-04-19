@@ -82,7 +82,7 @@ namespace JuegoDelGato.Forms
 
         void ActualizarResultado()
         {
-            LabelResultado.Text = Partida.UltimoResultado == Pinta.Vacio ? "askjda"  : $"Gana {Partida.JugadorActual.Nombre}";
+            LabelResultado.Text = Partida.UltimoResultado == Pinta.Vacio ? "Empate"  : $"Gana {Partida.JugadorActual.Nombre}";
         }
 
         private void ClickEnCasillero(int numeroCasillero)

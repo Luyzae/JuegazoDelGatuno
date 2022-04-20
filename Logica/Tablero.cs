@@ -10,19 +10,19 @@ namespace JuegoDelGato.Logica
     {
         public Tablero()
         {
-            pintas = new[]
+            simbolo = new[]
             {
-                Pinta.Vacio,
-                Pinta.Vacio,
-                Pinta.Vacio,
-                Pinta.Vacio,
-                Pinta.Vacio,
-                Pinta.Vacio,
-                Pinta.Vacio,
-                Pinta.Vacio,
-                Pinta.Vacio,
+                Simbolo.Ninguna,
+                Simbolo.Ninguna,
+                Simbolo.Ninguna,
+                Simbolo.Ninguna,
+                Simbolo.Ninguna,
+                Simbolo.Ninguna,
+                Simbolo.Ninguna,
+                Simbolo.Ninguna,
+                Simbolo.Ninguna,
             };
         }
-        public Pinta[] pintas { get; private set; }
+        public Simbolo[] simbolo { get; private set; }
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace JuegoDelGato.Logica
 {
-    public enum Pinta
+    public enum Simbolo
     {
-        Vacio,
+        Ninguna,
         X,
         O
     }

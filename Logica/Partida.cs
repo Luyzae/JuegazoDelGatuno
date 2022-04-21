@@ -23,7 +23,7 @@ namespace JuegoDelGato.Logica
 
         public static Simbolo TurnoActual { get; private set; }
         //Para obtener el jugador actual tomamos como referencia el turno actual
-        public static Jugador JugadorActual { get => Jugadores[0].Pinta == TurnoActual ? Jugadores[0] : Jugadores[1]; }
+        public static Jugador JugadorActual { get => Jugadores[0].Simbolo == TurnoActual ? Jugadores[0] : Jugadores[1]; }
         public static Simbolo UltimoResultado { get; private set; }
         public static void IniciarPartida(string nombreJugador1, string nombreJugador2)
         {

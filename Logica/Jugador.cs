@@ -12,18 +12,17 @@ namespace JuegoDelGato.Logica
         //Se utiliza únicamente en la clase Partida.cs 
 
         //Constructor de la clase tomando como argumento el nombre del jugador
-        public Jugador(string nombre, Simbolo pinta)
+        public Jugador(string nombre, Simbolo simbolo)
         {
             Nombre = nombre;
             PartidasGanadas = 0;
-            Pinta = pinta;
+            Simbolo = simbolo;
         }
 
         //La hacemos privada ya que la modificaremos desde el método PartidaGanada()
         public string Nombre { get; private set; }
         public int PartidasGanadas { get; private set; } 
-        public Simbolo Pinta { get; private set; }
-        public object? Simbolo { get; internal set; }
+        public Simbolo Simbolo { get; private set; }
 
         public void PartidaGanada()
         {

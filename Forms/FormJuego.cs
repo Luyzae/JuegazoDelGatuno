@@ -42,7 +42,7 @@ namespace JuegoDelGato.Forms
             Partida.IniciarRonda();
             foreach (var casillero in casilleros)
             {
-                casillero.Text = "";
+                casillero.Text = "-";
                 casillero.Enabled = true;
             }
             LabelResultado.Hide();

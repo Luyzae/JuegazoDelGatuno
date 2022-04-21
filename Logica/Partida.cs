@@ -68,10 +68,10 @@ namespace JuegoDelGato.Logica
                 {
                     UltimoResultado = Simbolo.Ninguna;
                 }
-                //Como no hay ganador devolvemos Pinta.Ninguna
+                //Como no hay ganador devolvemos Simbolo.Ninguna
                 resultadoRonda = Simbolo.Ninguna;
+                TurnoActual = TurnoActual == Simbolo.X ? Simbolo.O : Simbolo.X;
             }
-            TurnoActual = TurnoActual == Simbolo.X ? Simbolo.O : Simbolo.X;
             return resultadoRonda;
         }
 

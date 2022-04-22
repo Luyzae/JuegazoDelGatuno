@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace JuegoDelGato.Logica
 {
     //Esta clase administrará todo lo relacionado con el juego
-    //Es estática porque solo habrá una partida, y por tanto no tendremos que crear instancias
+    //Es estática (static) porque solo habrá una partida, y por tanto no tendremos que crear instancias
     public static class Partida
     {
         //Aquí almacenamos las dos instancias de la clase Jugador.

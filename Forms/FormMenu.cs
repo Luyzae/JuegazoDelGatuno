@@ -10,6 +10,7 @@ namespace JuegoDelGato
         }
         private void BotonJugar_Click(object sender, EventArgs e)
         {
+            // El juego solo empezara si los casilleros de nombres tienen algo introduccido, para eso usamos "Trim()"
             // https://docs.microsoft.com/es-es/dotnet/api/system.string.trim?view=net-6.0
             if (InputNombre1.Text.Trim() != "" && InputNombre2.Text.Trim() != "") 
             {

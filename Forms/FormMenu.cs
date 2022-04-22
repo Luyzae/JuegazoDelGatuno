@@ -12,9 +12,9 @@ namespace JuegoDelGato
         {
             // El juego solo empezara si los casilleros de nombres tienen algo introduccido, para eso usamos "Trim()"
             // https://docs.microsoft.com/es-es/dotnet/api/system.string.trim?view=net-6.0
-            if (InputNombre1.Text.Trim() != "" && InputNombre2.Text.Trim() != "") 
+            if (Nombre1.Text.Trim() != "" && Nombre2.Text.Trim() != "") 
             {
-                FormJuego formJuego = new FormJuego(InputNombre1.Text, InputNombre2.Text); 
+                FormJuego formJuego = new FormJuego(Nombre1.Text, Nombre2.Text); 
                 formJuego.Show();
                 Hide();
             }

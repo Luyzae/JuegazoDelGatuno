@@ -52,7 +52,7 @@ namespace JuegoDelGato.Forms
         Button[] casilleros;
         void ActualizarTurno()
         {
-            LabelTurno.Text = $"Turno de {Partida.JugadorActual.Nombre}";
+            LabelTurno.Text = $"Turno de: {Partida.JugadorActual.Nombre}";
         }
 
         void ActualizarCasillero(int casillero)

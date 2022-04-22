@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace JuegoDelGato.Logica
 {
+    //Esta clase almacena la información del jugador (Nombre y partidas ganadas)
+    //Se utiliza únicamente en la clase Partida.cs 
     public class Jugador
     {
-        //Esta clase almacena la información del jugador (Nombre y partidas ganadas)
-        //Se utiliza únicamente en la clase Partida.cs 
-
         //Constructor de la clase tomando como argumento el nombre del jugador
         public Jugador(string nombre, Simbolo simbolo)
         {
@@ -18,9 +17,9 @@ namespace JuegoDelGato.Logica
             PartidasGanadas = 0;
             Simbolo = simbolo;
         }
-
-        //La hacemos privada ya que la modificaremos desde el método PartidaGanada()
         public string Nombre { get; private set; }
+        //La unica razon para editar esta propiedad sera cuando el jugador gane una partida
+        // Por eso la hacemos privada ya que la modificaremos desde el método PartidaGanada()
         public int PartidasGanadas { get; private set; } 
         public Simbolo Simbolo { get; private set; }
 

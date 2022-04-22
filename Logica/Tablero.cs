@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace JuegoDelGato.Logica
 {
+    // Aqui se almacena la informacion del tablero
     public class Tablero
     {
         public Tablero()

@@ -54,6 +54,7 @@ namespace JuegoDelGato.Forms
             // LabelResultado
             // 
             this.LabelResultado.AutoSize = true;
+            this.LabelResultado.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.LabelResultado.Location = new System.Drawing.Point(285, 47);
             this.LabelResultado.Name = "LabelResultado";
             this.LabelResultado.Size = new System.Drawing.Size(62, 15);
@@ -265,6 +266,7 @@ namespace JuegoDelGato.Forms
             this.Controls.Add(this.Tablero);
             this.Controls.Add(this.LabelTurno);
             this.Controls.Add(this.LabelResultado);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormJuego";
             this.Text = "FormJuego";

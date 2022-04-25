@@ -14,7 +14,8 @@ namespace JuegoDelGato
             // https://docs.microsoft.com/es-es/dotnet/api/system.string.trim?view=net-6.0
             if (Nombre1.Text.Trim() != "" && Nombre2.Text.Trim() != "") 
             {
-                FormJuego formJuego = new FormJuego(Nombre1.Text, Nombre2.Text); 
+                FormJuego formJuego = new FormJuego(Nombre1.Text, Nombre2.Text);
+                formJuego.ActualizarEstadisticasJugadores();
                 formJuego.Show();
                 Hide();
             }
